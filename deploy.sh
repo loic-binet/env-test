@@ -1,4 +1,3 @@
-cd env-test/
 sudo terraform validate
 sudo terraform init
 sudo terraform plan -lock=false
