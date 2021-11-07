@@ -9,7 +9,7 @@
   tasks:
   - name: Copy Docker-compose File
     copy:
-      src: /root/{{ env_name }}/docker-compose.yml
+      src: /root/jenkins/{{ env_name }}/docker-compose.yml
       dest: /home/testtest/docker-compose.yml
 
 
