@@ -1,2 +1,0 @@
-touch ok.txt
-date
