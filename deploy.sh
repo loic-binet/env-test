@@ -1,5 +1,5 @@
-terraform validate
 terraform init
+terraform validate
 terraform plan -lock=false
 terraform apply -auto-approve -lock=false
 terraform plan -lock=false
