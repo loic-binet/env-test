@@ -1,0 +1,21 @@
+version: '3'
+services:
+  app1:
+    image: loow/app:latest
+    expose:
+      - "5000"
+
+  app2:
+    image: loow/app2:latest
+    expose:
+      - "5000"
+
+  app3:
+    image: loow/app3:latest
+    expose:
+      - "5000"
+
+  nginx:
+    image: loow/nginx:latest
+    ports:
+      - "80:80"
