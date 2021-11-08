@@ -4,18 +4,22 @@ services:
     image: loow/app:latest
     expose:
       - "5000"
+    restart: unless-stopped 
 
   app2:
     image: loow/app2:latest
     expose:
       - "5000"
+    restart: unless-stopped 
 
   app3:
     image: loow/app3:latest
     expose:
       - "5000"
+    restart: unless-stopped 
 
   nginx:
     image: loow/nginx:latest
     ports:
       - "80:80"
+    restart: unless-stopped 
